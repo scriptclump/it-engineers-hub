@@ -70,3 +70,125 @@ Modules:
  ☐ blog
  ☐ QA
  ☐ Our clients
+
+
+Database:
+store_categories
+-----------------
+id
+parent_id
+title
+meta_title
+meta_des
+meta_key
+sort_order
+status
+
+stores
+-------
+id
+cat_id
+title
+email
+office_phone
+mobile_phone
+address
+city
+state
+country
+zip
+lat
+long
+meta_title
+meta_des
+meta_key
+sort_order
+status
+
+software_categories
+-----------------
+id
+parent_id
+title
+meta_title
+meta_des
+meta_key
+sort_order
+status
+
+softwares
+---------
+id
+cat_id
+title
+content
+link
+meta_title
+meta_des
+meta_key
+sort_order
+status
+
+contact_us
+----------
+id
+name
+email
+subject
+msg
+date
+status (replied, Not yet addressed)
+
+
+users
+-----
+id
+user_type
+email
+username
+password
+name
+display_name
+profile_pic
+identity_copy (voter, pan, passport)
+aadhar_no
+registration_date
+status
+
+reviews
+-------
+id
+user_id
+name
+msg
+
+qualifications
+---------------
+id
+user_id
+institute_name (university name)
+grade (percentage)
+year_of_passing
+certificate_copy
+default_qualification
+
+address_book
+------------
+id
+user_id
+phone1
+phone2
+address
+zip
+city
+state
+lat
+long
+country
+default_address
+
+
+HTML theme:
+ ☐ Aaika Theme
+ ☐ http://paulthekkinen.com/insurance/multi/challenge.html
+ ☐ http://preview.themeforest.net/item/zoner-real-estate-html-template/full_screen_preview/9996429?_ga=1.17751161.1932330013.1487330326
