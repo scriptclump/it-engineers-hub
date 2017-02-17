@@ -1,0 +1,72 @@
+Duration: 11 days
+Budget:
+  ☐ 1000 server
+  ☐ 90000 for manpower
+
+Phase 1:
+17/02/2017:
+ ☐ Installing required software
+ ☐ Setting up a Skeleton
+18/02/2017:
+ ☐ Store category module
+ ☐ Store listing module
+ ☐ Software category module
+ ☐ Software listing
+ ☐ User Module
+ ☐ Contact us Module
+19/02/2017:
+ ☐ HTML selection
+ ☐ CMS module
+ ☐ Contact us
+ ☐ Store listing
+ ☐ Software listing
+20/02/2017:
+ ☐ Find web scrapping source
+ ☐ Scrap the data for kolkata location
+20/02/2017 to 22/02/2017:
+ ☐ Find web scrapping source
+ ☐ Scrap the data for kolkata location
+23/02/2017:
+ ☐ Find web scrapping source
+ ☐ Scrap the data for kolkata location
+24/02/2017:
+ ☐ upload the website to server
+ ☐ setting up wordpress blog
+ ☐ Adding the menus
+
+Phase 2:
+25/02/2017:
+ ☐ Our client admin panel
+ ☐ Our client listing
+ ☐ Our client detail
+ ☐ User registration
+26/02/2017:
+ ☐ User listing as per location
+ ☐ User detail
+ ☐ Diffrent types of search
+27/02/2017:
+ ☐ Hire an engineer
+ ☐ Email to admin
+ ☐ Admin panel to checking the work and it status
+28/02/2017:
+ ☐ Registraion API
+ ☐ Login API
+
+
+Modules:
+ ☐ User Module
+ ☐ Newsletter Module
+ ☐ User listing module
+ ☐ Booking Module
+ ☐ Contact us Module
+ ☐ Listing category Module
+ ☐ User category module
+ ☐ Store category module
+ ☐ Store listing module
+ ☐ Software category module
+ ☐ Software listing
+ ☐ Static pages
+ ☐ subscription
+ ☐ blog
+ ☐ QA
+ ☐ Our clients
