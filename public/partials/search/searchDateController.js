@@ -2,7 +2,7 @@
  * Created by CGI on 07/12/2016.
  */
 
-angular.module('helpDesk')
+angular.module('itHub')
        
     .controller('searchDateCtrl',['$scope', '$window', '$filter', 'httpService',  function($scope, $window, $filter,httpService) {
         $scope.data = {};

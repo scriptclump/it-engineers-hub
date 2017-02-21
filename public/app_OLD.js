@@ -1,4 +1,4 @@
-angular.module('helpDesk', ['ngResource', 'ui.router', 'datatables', 'ui.bootstrap', 'yaru22.angular-timeago','ngFileUpload'])
+angular.module('itHub', ['ngResource', 'ui.router', 'datatables', 'ui.bootstrap', 'yaru22.angular-timeago','ngFileUpload'])
         .config(function ($stateProvider, $locationProvider, $urlRouterProvider) {
             $locationProvider.html5Mode(true);
             $urlRouterProvider.otherwise('dashboard/main');

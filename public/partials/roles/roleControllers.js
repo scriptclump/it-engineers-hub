@@ -1,4 +1,4 @@
-angular.module('helpDesk')
+angular.module('itHub')
         .controller('rolesCtrl', ['$scope', '$window', 'httpService', '$stateParams', '$filter', '$location','$timeout',
             function ($scope, $window, httpService, $stateParams, $filter, $location,$timeout) {
                 $scope.udata = {};
@@ -321,7 +321,7 @@ angular.module('helpDesk')
     	}]);
 
 // for pagination
-angular.module('helpDesk').filter('start', function () {
+angular.module('itHub').filter('start', function () {
                     return function (input, start) {
                         if (!input || !input.length) { return; }
  

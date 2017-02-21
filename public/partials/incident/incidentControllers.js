@@ -1,7 +1,7 @@
 /**
  * Created by Pkp on 5/10/2016.
  */
-angular.module('helpDesk')
+angular.module('itHub')
         .controller('incidentCtrl', ['$scope', '$window', 'httpService', '$routeParams', '$filter',
             '$location', function ($scope, $window, httpService, $routeParams, $filter, $location) {
 

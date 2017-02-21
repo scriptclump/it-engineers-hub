@@ -2,7 +2,7 @@
  * Created by Pkp on 5/15/2016.
  */
 
-angular.module('helpDesk')
+angular.module('itHub')
     .controller('searchIncident',['$scope', '$window', 'httpService',  function($scope, $window, httpService) {
 
                 $scope.searchbyId = function(incidentId){

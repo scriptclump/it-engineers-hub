@@ -1,7 +1,7 @@
 /**
  * Created by Pkp on 5/10/2016.
  */
-angular.module('helpDesk')
+angular.module('itHub')
         .controller('emailTemplateCtrl', ['$scope', '$window', 'httpService', '$stateParams', '$filter', '$location', 'AclService',
             function ($scope, $window, httpService, $stateParams, $filter, $location, AclService) {
                 $scope.udata = {};

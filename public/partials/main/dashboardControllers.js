@@ -1,7 +1,7 @@
 /**
  * Dashboard Controller
  */
-angular.module('helpDesk')
+angular.module('itHub')
         .controller('dashboardCtrl', ['$scope', '$window', 'httpService', '$filter', '$location',  'DTOptionsBuilder', 'ticketsManager',
             function ($scope, $window, httpService, $filter, $location, DTOptionsBuilder, ticketsManager) {
             	$scope.newTickets = DTOptionsBuilder.newOptions().withOption('order', [[0, 'desc']]);

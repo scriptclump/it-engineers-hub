@@ -1,4 +1,4 @@
-// angular.module('helpDesk').factory('socketio', ['$rootScope', function ($rootScope) {
+// angular.module('itHub').factory('socketio', ['$rootScope', function ($rootScope) {
 //        'use strict';
 //        
 //        var socket = io.connect('');

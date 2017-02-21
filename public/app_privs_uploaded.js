@@ -1,4 +1,4 @@
-angular.module('helpDesk', ['ngResource', 'ui.router', 'datatables', 'ui.bootstrap', 'yaru22.angular-timeago', 'mm.acl'])
+angular.module('itHub', ['ngResource', 'ui.router', 'datatables', 'ui.bootstrap', 'yaru22.angular-timeago', 'mm.acl'])
         .config(function ($stateProvider, $locationProvider, $urlRouterProvider) {
             $locationProvider.html5Mode(true);
             $urlRouterProvider.otherwise('login');

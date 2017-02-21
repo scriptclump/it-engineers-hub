@@ -2,7 +2,7 @@
  * Created by CGI on 07/12/2016.
  */
 
-angular.module('helpDesk').factory('httpService', function ($http, $q) {
+angular.module('itHub').factory('httpService', function ($http, $q) {
     return {
         callRestApi: function (payload, url, method) {
             var dfd = $q.defer();

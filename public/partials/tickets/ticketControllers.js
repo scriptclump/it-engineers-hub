@@ -1,4 +1,4 @@
-angular.module('helpDesk')
+angular.module('itHub')
         .controller('ticketCtrl', ['$scope', '$window', 'httpService', '$stateParams', '$filter', '$location', '$sce', '$rootScope', '$timeout', 'DTOptionsBuilder', '$modal', 'Upload', 'AclService',
             function ($scope, $window, httpService, $stateParams, $filter, $location, $sce, $rootScope, $timeout, DTOptionsBuilder, $modal, Upload, AclService) {
                 $scope.commentsList = {};
