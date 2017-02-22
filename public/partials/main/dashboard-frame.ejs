@@ -19,6 +19,32 @@
                                 <span class="icon fa fa-tachometer"></span><span class="title">Dashboard</span>
                             </a>
                         </li>
+                        <li class="panel panel-default dropdown" ng-if="can('94498023') || can('97696981') || can('22797888')">
+                            <a data-toggle="collapse" href="#dropdown-table">
+                                <span class="icon fa fa-users"></span><span class="title">Store Module</span>
+                            </a>
+                            <div id="dropdown-table" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="nav navbar-nav">
+                                        <li ng-class="{ active: isActive('dashboard.team')}" ng-if="can('94498023')">
+                                            <a ui-sref="dashboard.team">
+                                                Category
+                                            </a>
+                                        </li>
+                                        <li ng-class="{ active: isActive('dashboard.team.addmember')}" ng-if="can('97696981')">
+                                            <a ui-sref="dashboard.addmember" >
+                                                Listing
+                                            </a>
+                                        </li>
+                                        <li ng-class="{ active: isActive('dashboard.team.import-members')}" ng-if="can('22797888')">
+                                            <a ui-sref="dashboard.import-members" >
+                                                Import Members
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
                         <li ng-class="{ active: isActive('dashboard.approvals')}" ng-if="can('37810236')">
                             <a ui-sref="dashboard.approvals">
                                 <span class="icon fa fa-thumbs-up"></span><span class="title">Approvals</span>
