@@ -1,7 +1,4 @@
-
-DO NOT TRANSLATE OR LOCALIZE.
-
-%% The following software may be included in this product: ASM
+The following software may be included in this product: ASM
  Use of any of this software is governed by the terms of the license below:
 
 Copyright (c) 2000-2005 INRIA, France Telecom
