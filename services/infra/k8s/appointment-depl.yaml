@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: appointment-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: appointment
+  template:
+    metadata:
+      labels:
+        app: appointment
+    spec:
+      containers:
+      - name: appointment
+        image: basantxbs/appointment
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 2254
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: appointment-srv
+spec:
+  selector:
+    app: appointment
+  ports:
+    - name: appointment
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

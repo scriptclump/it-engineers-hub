@@ -1,10 +1,10 @@
 {
-  "name": "auth",
+  "name": "appointment",
   "version": "1.0.0",
-  "description": "Service for managing the authentication",
+  "description": "Service for managing the appointment",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev src/index.js"
+    "start": "ts-node-dev src/index.ts"
   },
   "keywords": [],
   "author": "Basant Kumar Sharma",
