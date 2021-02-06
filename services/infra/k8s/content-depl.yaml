@@ -20,3 +20,16 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 2256
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: content-srv
+spec:
+  selector:
+    app: content
+  ports:
+    - name: content
+      protocol: TCP
+      port: 3000
+      targetPort: 3000
