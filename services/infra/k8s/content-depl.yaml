@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: content-depl
+spec:
+  selector:
+    matchLabels:
+      app: content-depl
+  template:
+    metadata:
+      labels:
+        app: content-depl
+    spec:
+      containers:
+      - name: content-depl
+        image: basantxbs/engineering-hub:content
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 2256
