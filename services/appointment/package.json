@@ -1,10 +1,10 @@
 {
   "name": "appointment",
   "version": "1.0.0",
-  "description": "Service for managing the appointment",
+  "description": "Service for managing the appointments",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev src/index.ts"
+    "start": "ts-node-dev --poll src/index.ts"
   },
   "keywords": [],
   "author": "Basant Kumar Sharma",
