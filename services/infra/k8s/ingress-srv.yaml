@@ -1,17 +1,14 @@
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
-metadata:
-  name: myingress
-  labels:
-      name: myingress
+metadata: 
+  name: ingress-srv
+  annotations: 
+    kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: <Host>
-    http:
-      paths:
-      - pathType: Prefix
-        path: "/"
-        backend:
-          service:
-            serviceName: <Service>
-            servicePort: <Port>
+    - host: posts.com
+      http:
+        - paths: /posts
+          backend:
+            serviceName: posts-clusterip-srv
+            servicePort: 3001
